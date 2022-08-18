@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("autos").addEventListener("click", function() {
         localStorage.setItem("catID", 101);
@@ -12,3 +13,17 @@ document.addEventListener("DOMContentLoaded", function(){
         window.location = "products.html"
     });
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+    let usuario= localStorage.getItem("user");
+debugger;
+    if(usuario == null){
+        alert("No hay nadie ingresado")
+        location.href= "login.html";
+    } 
+  document.getElementById("cerrar").addEventListener("click",function(){
+        localStorage.removeItem("user")
+        location.href="login.html"
+    })
+    
+})
