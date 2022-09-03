@@ -236,3 +236,8 @@ body {
     margin-left: 200px;
 
   }
+  #inputSearch{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -50px;
+  }
