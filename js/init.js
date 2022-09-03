@@ -37,5 +37,14 @@ let getJSONData = function(url){
         result.data = error;
         hideSpinner();
         return result;
-    });
-}
+  
+  });
+ }
+
+ document.addEventListener("DOMContentLoaded",function(){
+  let usuario = localStorage.getItem("user")
+  document.getElementById("nomuser").innerHTML= usuario
+ })
+
+
+      

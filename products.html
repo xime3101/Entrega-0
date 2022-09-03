@@ -31,11 +31,28 @@
             <a class="nav-link" href="sell.html">Vender</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="" id="nomuser"></a>
           </li>
         </ul>
       </div>
     </div>
+
   </nav>
+  <div class="col">
+    <input class="form-control" type="number" placeholder="precio mín." id="rangeFilterCountMin">
+  </div>
+  <div class="col">
+    <input class="form-control" type="number" placeholder="precio máx." id="rangeFilterCountMax">
+  </div>
+  <div class="col">
+    <button id="botonfiltrar">Filtrar</button>
+  </div>
+  <p id="ordenarprecios">Ordenar precios:</p>
+  <p id="trelevancia">Ordenar según relevancia:</p>
+  <label class="btn btn-light" for="sortByCount" id="descendente"><i class="fas fa-sort-amount-down mr-1"></i></label>
+  <label class="btn btn-light" for="sortByCount" id="ascendente"><i class="fas fa-sort-amount-up mr-1"></i></label>
+  <label class="btn btn-light" for="sortByCount" id="relevancia"><i class="fas fa-sort-amount-down mr-1"></i></label>
+  <input type="search" placeholder="Buscar producto" id="inputSearch">
   <main role="main" class="pb-5">
     <div class="text-center p-4">
         <h2>Productos </h2>

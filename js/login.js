@@ -9,6 +9,8 @@ debugger;
     else {
         localStorage.setItem("user",usuario)
          location.href= "index.html";
+        
+         
     } }
  
  document.addEventListener("DOMContentLoaded",function() {

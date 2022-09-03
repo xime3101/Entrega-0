@@ -197,3 +197,42 @@ body {
     text-align: center;
     font-family: "raleway";
   }
+  #rangeFilterCountMin{
+    margin-top: 25px;
+    width: min-content;
+    margin-left: 1130px;
+  }
+  #rangeFilterCountMax{
+    width: min-content;
+    margin-left: 1130px;
+  }
+  #botonfiltrar{
+    margin-left: 1135px;
+  }
+  #ordenarprecios{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Raleway';
+  }
+  #ascendente{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 55px;
+  }
+  #descendente{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  #trelevancia{
+  margin-left: 200px;
+  margin-top: -100px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  }
+  #relevancia{
+    margin-left: 200px;
+
+  }
